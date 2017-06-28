@@ -159,10 +159,6 @@ public class Model extends java.util.Observable {
 
         setChanged();
         notifyObservers(table);
-        translateResultSet();
-
-        setChanged();
-        notifyObservers(table);
     }
 
     /**
